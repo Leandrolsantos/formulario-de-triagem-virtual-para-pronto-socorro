@@ -1,0 +1,35 @@
+* {
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    border-style: double;
+    border-radius: 8px;
+    background-color: rgb(186, 186, 204);
+    font-family: 'Poppins', sans-serif;
+}
+
+body input {
+    background-color: white;
+    display: block;
+}
+
+img {
+    width: 10%;
+}
+
+form {
+    margin-left: auto;
+    display: block;
+    width: 58%;
+}
+
+.input-padrao {
+    display: inline-block;
+    width: 60%;
+    padding: 12px;
+}
+
+button {
+    border: groove;
+    margin-block: center;
+}
