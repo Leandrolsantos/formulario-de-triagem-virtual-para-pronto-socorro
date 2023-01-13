@@ -14,24 +14,32 @@
         <form>
                 <img src="triagem.png" alt="Coração Batendo">
                 <h1>Formulário de Triagem Virtual para Pronto-Socorro</h1>
-                <p>Para melhorar a agilidade no atendimento, preencha os campos abaixos abaixo:</p>
+                <p>Para melhorar a agilidade no atendimento preencha corretamente os campos abaixo:</p>
             <div>     
+                <li>    
+                    <label for="horadechegada">Hora de chegada:</label>
+                    <input type="time" id="hora" class="input-padrao" required placeholder="12:00">
+                </li>
                 <li>
                     <label for="nome">Nome:</label>
-				    <input type="text" id="nome" class="input-padrao" required>
+				    <input type="text" id="nome" class="input-padrao" required placeholder="João da Silva">
+                </li>
+                <li>    
+                    <label for="datadenascimento">Data de Nascimento:</label>
+                    <input type="date" id="data-de-nascimento" class="input-padrao" required placeholder="Dia/Mês/Ano">
                 </li>
                 <li>
                     <label for="idade">Idade:</label>
-				    <input type="text" id="idade" class="input-padrao" required>
+				    <input type="text" id="idade" class="input-padrao" required placeholder="X Anos">
                 </li>
                 <li>
                     <label for="genero">Gênero:</label>
-                    <input type="text" id="idade" class="input-padrao" required>   
+                    <input type="text" id="idade" class="input-padrao" required placeholder="Masculino/Feminino/Outro">   
                 </li>
                 <li>    
                     <label for="sintomas">Sintomas:</label>
-                    <input type="text" id="sintomas" class="input-padrao" required>
-                </li> 
+                    <input type="text" id="sintomas" class="input-padrao" required placeholder="Dor de Cabeça, Tontura, Febre, etc">
+                </li>  
                     <button class="enviar">Enviar</button>
             </div>        
         </form>    
