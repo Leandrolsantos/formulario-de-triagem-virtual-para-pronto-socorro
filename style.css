@@ -24,7 +24,12 @@ p {
     font-size: 18px;
     text-align: center;
     background: rgb(209, 216, 216)
-}  
+}
+
+.fundodaopcao label {
+    background: rgb(134, 213, 213);
+    font-weight: bold;
+}
 
 img {
     width: 10%;
@@ -47,6 +52,12 @@ form {
     width: 50%;
     padding: 12px;
 }
+
+.medidor {
+    width: 67%;
+}
+
+
 
 .enviar {
     border: groove;

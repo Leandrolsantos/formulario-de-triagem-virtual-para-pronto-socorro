@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 10px;
+    border-width: 20px;
+    border: double;
+    box-sizing: border-box;
+    background-color: rgb(105, 221, 121);
+    font-family: 'Poppins', sans-serif;
+}
+
+form {
+    margin: 400px;
+    display: block;
+    width: 100%;
+}
+
