@@ -28,6 +28,11 @@ p {
 
 img {
     width: 10%;
+    transition: 1.3s;
+}
+
+img:hover {
+    transform:scale(1.07);
 }
 
 form {
@@ -45,12 +50,18 @@ form {
 
 .enviar {
     border: groove;
+    border-color: red;
+    border-width: 5px;
+    transition: 1.3s;
+    background: rgb(219, 108, 108);
     padding: 10px;
     margin-top: 20px;
     width: 100%;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .enviar:hover {
     transform:scale(1.01);
-    color:rgb(219, 108, 108);
+    color:rgb(231, 235, 15);
 }
