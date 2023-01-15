@@ -37,7 +37,7 @@ img {
 }
 
 img:hover {
-    transform:scale(1.07);
+    transform:scale(1.3);
 }
 
 form {
@@ -53,6 +53,11 @@ li {
     list-style: none;
 }
 
+.genero {
+    width: 18%;
+    padding: 11.1px;
+}
+
 select {
     width: 80%;
 }
@@ -66,37 +71,55 @@ select {
     margin: 0 30px 0 0;
 }
 
+.ocultar-link:link {
+    color: black;
+    text-decoration: none;
+}
+
+.ocultar-link:visited {
+    color: black;
+    text-decoration: none; 
+}
+
 #hora {
     width: 17.8%;
+    padding: 5.5px;
 }
 
 #nome {
     width: 82%;
+    padding: 6.8px;
 }
 
 #data-de-nascimento {
-    width: 30%;
+    width: 27%;
+    padding: 5.5px;
 }
 
 #idade {
-    width: 82%; 
+    width: 15%;
+    padding: 7.2px; 
 }
 
 #telefone {
-    width: 78.5%;
+    width: 25%;
+    padding: 6.3px;
 }
 
 #email {
     width: 82.5%;
+    padding: 6.3px;
 }
 
 #sintomas {
-    width: 77%;
+    width: 77.5%;
+    padding: 5.5px;
 }
 
 #exames {
     background:rgb(249, 249, 249);
     border: groove;
+    padding: 5.5px;
 }
 
 .medidor {
@@ -113,12 +136,11 @@ select {
 }
 
 .obs {
-    background:rgb(134, 213, 213)
+    background:rgb(134, 213, 213);
 }
 
 .enviar {
     border: groove;
-    
     border-width: 5px;
     transition: 1.3s;
     background: rgb(219, 108, 108);
@@ -133,8 +155,8 @@ select {
 
 .enviar:hover {
     transform:scale(1.04);
-    color:rgb(232, 236, 21);
-    transform: uppercase;
+    background:rgb(76, 209, 64);
+    text-decoration: crimson;
 }
 
 @media screen and (max-width: 480px) {
