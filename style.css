@@ -54,7 +54,7 @@ li {
 }
 
 .genero {
-    width: 18%;
+    width: 20%;
     padding: 11.1px;
 }
 
@@ -99,6 +99,11 @@ select {
 #idade {
     width: 15%;
     padding: 7.2px; 
+}
+
+#rg {
+    width: 19%;
+    padding: 7.5px;   
 }
 
 #telefone {
