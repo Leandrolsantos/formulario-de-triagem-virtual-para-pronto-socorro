@@ -1,4 +1,10 @@
 # Formulário Virtual de Triagem para Pronto-Socorro
+<img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
+</p>
+
+![](./triagem-gif/triagem-virtual.gif)
+## Link do Projeto
+https://triagemvirtualups.netlify.app
 ## Descrição
 Formulário de triagem virtual para atendimento em unidades de Pronto-Socorro para agilizar o atendimento dos pacientes.
 ### Desafios
