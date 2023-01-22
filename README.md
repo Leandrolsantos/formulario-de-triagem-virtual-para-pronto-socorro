@@ -2,7 +2,7 @@
 <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
-![](./triagem-gif/triagem-virtual.gif)
+![](./triagem-gif/triagemvirtual.gif)
 ## Link do Projeto
 https://triagemvirtualups.netlify.app
 
